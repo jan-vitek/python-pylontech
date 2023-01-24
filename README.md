@@ -1,3 +1,12 @@
+# This fork modifies the code to work with Taico batteries (which I wouldn't buy again)
+I got two different BMS types in two orders from them.
+
+`pace_bms.py` is for the first type I got which is completely different from Pylontech
+
+`pylontech_addr_as_arg.py` is for the second type BMS which is similar to Pylontech BMS but is missing some of the fields
+
+Both scripts are modified to return the data as JSON. Both scripts are based on version 0.7.0.
+
 # python-pylontech
 Python lib to talk to pylontech lithium batteries (US2000, US3000, ...) using RS485
 
